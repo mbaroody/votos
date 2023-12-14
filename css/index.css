@@ -1,10 +1,52 @@
-body {
-  background-image: url("../images/portBackground.jpg");
-  background-size: cover;
-  /* background-position: center; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
+@media screen and (max-width: 1000px) {
+ body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(251, 248, 243, 1);
+    background-image: 
+      url('../images/right_top.webp'),
+      url('../images/left_bottom.webp'),
+      url('../images/sides.webp');
+    background-size: 
+      contain, 
+      contain,
+      100%;
+    background-attachment: 
+      fixed, 
+      fixed,
+      fixed;
+    background-position: 
+      top, 
+      bottom,
+      center;
+    background-repeat: 
+      no-repeat,
+      no-repeat,
+      no-repeat;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+ body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(251, 248, 243, 1);
+    background-image: 
+      url('../images/right_top.webp'),
+      url('../images/left_bottom.webp');
+    background-size: 
+      contain, 
+      contain;
+    background-attachment: 
+      fixed, 
+      fixed;
+    background-position: 
+      top, 
+      bottom;
+    background-repeat: 
+      no-repeat,
+      no-repeat;
+  }
 }
 
 ul {
@@ -21,4 +63,15 @@ ul {
 
 .panel-transparent .panel-body{
   background: rgba(46, 51, 56, 0.8)!important;
+}
+
+#content-view {
+  height: 100%;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
