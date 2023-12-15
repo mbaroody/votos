@@ -64,6 +64,10 @@ ul {
   opacity: 0.8;
 }
 
+.service-nav-btn {
+  font-size: 1em;
+}
+
 #root {
   padding: 6vh 3vw 6vh 4vw;
 }

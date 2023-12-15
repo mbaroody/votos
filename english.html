@@ -14,28 +14,25 @@
 
 <body>
     <div id="root" class="container-fluid">
-        <div id="navigation" class="container-fluid text-center d-flex flex-column justify-content-center align-items-center">
+        <div id="navigation"
+            class="container-fluid text-center d-flex flex-column justify-content-center align-items-center">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
+                <div class="d-flex flex-row mb-3 justify-content-center">
+                    <div class="p-2">
                         <h1 class="mb-4">Wait for Officiant's Instructions</h1>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-3">
-                        <button class="btn m-1" onclick="display('service')">Service</button>
-                    </div>
-                    <div class="col-md-3">
-                        <button class="btn m-1" onclick="display('karen')">Karen's Vows</button>
-                    </div>
-                    <div class="col-md-3">
-                        <button class="btn m-1" onclick="display('mike')">Mike's Vows</button>
-                    </div>
+                <div class="d-flex flex-row mb-3 justify-content-center">
+
+                    <button class="btn p-1 m-1" onclick="display('service')">Service</button>
+                    <button class="btn p-1 m-1" onclick="display('karen')">Karen's Vows</button>
+                    <button class="btn p-1 m-1" onclick="display('mike')">Mike's Vows</button>
                 </div>
             </div>
             <!-- <button id="back" class="btn mr-2 d-none" onclick="back()">BACK</a> -->
         </div>
-        <div id="content" class="container text-center d-flex flex-column justify-content-center align-items-center mt-5 d-none">
+        <div id="content"
+            class="container text-center d-flex flex-column justify-content-center align-items-center mt-5 d-none">
             <div id="service" class="card d-none">
                 <div class="card-body">
                     <p>
