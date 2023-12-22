@@ -53,11 +53,17 @@
   }
 }
 
-.card-header {
+.back-button {
   border: none;
-  margin: -20px 0px 0px -25px;
-  background: transparent;
+  margin: -0.7em 0 0 -0.6em;
   position: fixed;
+  background-color: rgba(245, 182, 131, 0.6);
+  color: rgba(115, 72, 37, 1);
+  width: 1.2em;
+  height: 1.2em;
+  padding: 0px 0px;
+  border-radius: 50px;
+  font-size: 1.5em;
 }
 
 .card {
